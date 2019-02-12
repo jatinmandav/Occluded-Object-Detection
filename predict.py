@@ -103,7 +103,7 @@ if __name__ == '__main__':
                         help="Path to weights .h5 file or 'coco'")
     parser.add_argument('--image', required=True,
                         metavar="path or URL to image",
-                        help='Image to apply the color splash effect on')
+                        help='Image to make prediction')
     args = parser.parse_args()
 
     # Validate arguments
